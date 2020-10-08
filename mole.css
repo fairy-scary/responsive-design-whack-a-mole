@@ -1,27 +1,33 @@
-
 /*Mole image classes*/
 
+.playing-field {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
 .whack {
-    width: 640px;
-    height: 482px;
+    width: 320px;
+    height: 241px;
     position: relative;
     display: inline-block;
     overflow: hidden;
 }
 
 .mole-head {
-    width: 380px;
-    height: 380px;
+    width: 190px;
+    height: 190px;
     position: absolute;
-    left: 107px;
+    left: 53px;
     z-index: 1;
+    transition: 0.25s margin-top;
 }
 
 .mole-hill {
-    width: 640px;
-    height: 220px;
+    width: 320px;
+    height: 110px;
     position: absolute;
-    top: 270px;
+    top: 135px;
     z-index: 0;
 }
 
