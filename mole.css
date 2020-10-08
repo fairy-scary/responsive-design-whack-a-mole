@@ -33,4 +33,5 @@
 
 .hide-head {
     margin-top: 482px;
+    z-index: -1;
 }
