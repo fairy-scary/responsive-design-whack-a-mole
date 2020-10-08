@@ -1,1 +1,30 @@
-/* Write your CSS here. */
+
+/*Mole image classes*/
+
+.whack {
+    width: 640px;
+    height: 482px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.mole-head {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    left: 107px;
+    z-index: 1;
+}
+
+.mole-hill {
+    width: 640px;
+    height: 220px;
+    position: absolute;
+    top: 270px;
+    z-index: 0;
+}
+
+.hide-head {
+    margin-top: 482px;
+}
