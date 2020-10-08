@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
             ele.classList.add("hide-head")
          })   
     }
-});
+}); 
 
 function popUpRandonMole(num) {
     let mole = moleHead[num];
